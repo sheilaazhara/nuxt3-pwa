@@ -24,5 +24,5 @@ const runtimeConfig = useRuntimeConfig();
 const apiBase = runtimeConfig.public.apiBase;
 
 // fetch product
-const { data: products } = await useFetch(`${apiBase}/products`);
+const { data: products } = await useFetch(`https://fakestoreapi.com/products`);
 </script>
