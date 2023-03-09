@@ -7,6 +7,6 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxtjs/tailwindcss','@kevinmarrec/nuxt-pwa'],
   pwa: {
-    workbox: { enabled: false },
+    workbox: { enabled: true },
   },
 })
