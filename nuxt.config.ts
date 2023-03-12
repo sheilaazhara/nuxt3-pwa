@@ -9,5 +9,14 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss','@kevinmarrec/nuxt-pwa'],
   pwa: {
     workbox: { enabled: true },
+    meta: {
+      title: "Nuxt 3 PWA",
+      author: "Sheila",
+      mobileAppIOS: true,
+    },
+    manifest: {
+      name: "Nuxt 3 PWA",
+      short_name: "Nuxt PWA",
+    },
   },
 })
