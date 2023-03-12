@@ -6,7 +6,18 @@ export default defineNuxtConfig({
     },
   },
   ssr: false,
-  modules: ['@nuxtjs/tailwindcss','@kevinmarrec/nuxt-pwa'],
+  modules: ["@nuxtjs/tailwindcss", "@kevinmarrec/nuxt-pwa"],
+  app: {
+    head: {
+      meta: [
+        {
+          name: "viewport",
+          content:
+            "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0",
+        },
+      ],
+    },
+  },
   pwa: {
     workbox: { enabled: true },
     meta: {
@@ -19,4 +30,4 @@ export default defineNuxtConfig({
       short_name: "Nuxt PWA",
     },
   },
-})
+});
