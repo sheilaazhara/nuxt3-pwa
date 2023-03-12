@@ -5,6 +5,7 @@ export default defineNuxtConfig({
       apiBase: process.env.NUXT_BASE_URL,
     },
   },
+  ssr: false,
   modules: ['@nuxtjs/tailwindcss','@kevinmarrec/nuxt-pwa'],
   pwa: {
     workbox: { enabled: true },
