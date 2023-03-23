@@ -10,10 +10,10 @@
     "lint:fix": "eslint --fix --ext .js,.ts ."
   },
   "devDependencies": {
-    "@kevinmarrec/nuxt-pwa": "^0.15.0",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
+    "@vite-pwa/nuxt": "^0.0.7",
     "@vue/eslint-config-standard": "^8.0.1",
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
